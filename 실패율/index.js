@@ -26,8 +26,5 @@ function solution(N, stages) {
   return answer;
 }
 
-console.log(solution(5, [2, 1, 2, 6, 2, 4, 3, 3]));
-console.log(solution(4, [4, 4, 4, 4, 4]));
-
-
-
+solution(5, [2, 1, 2, 6, 2, 4, 3, 3]);
+solution(4, [4, 4, 4, 4, 4]);

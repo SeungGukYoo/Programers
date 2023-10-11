@@ -23,3 +23,6 @@ function solution(N, stages) {
   const answer = failerRates.map((rates) => rates[1]);
   return answer;
 }
+
+solution(5, [2, 1, 2, 6, 2, 4, 3, 3]);
+solution(4, [4, 4, 4, 4, 4]);
